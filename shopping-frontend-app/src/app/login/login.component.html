@@ -1,0 +1,32 @@
+<div class="columns" style="margin: 20px 0px 20px 0px;">
+    <div class="column is-4">
+        <div class="field">
+            <p class="control has-icons-left has-icons-right">
+                <input  [(ngModel)]="username" class="input is-medium" type="email" placeholder="Email">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+                <span class="icon is-small is-right">
+                    <i class="fas fa-check"></i>
+                </span>
+            </p>
+        </div>
+        <div class="field">
+            <p class="control has-icons-left">
+                <input [(ngModel)]="password" class="input is-medium" type="password" placeholder="Password">
+                <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+            </p>
+        </div>
+    </div>
+    <div class="field" style="margin-top:10px;">
+        <div class="column is-4">
+            <div class="buttons">
+                <button class="button is-primary">Login</button>
+                <button class="button is-danger">Forgot Password</button>
+            </div>
+        </div>
+    </div>
+</div>
+<a>{{username}}</a>

@@ -21,4 +21,10 @@ export class ProductsComponent implements OnInit {
   ngOnInit() {
   }
 
+  onClickedButton(event: MouseEvent, productId: number) {
+
+    const grabOne: Product = this.products.find(object => object.id === productId);
+    grabOne.inventory = grabOne.inventory - 1;
+
+  }
 }
