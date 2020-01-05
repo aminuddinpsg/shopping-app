@@ -1,0 +1,36 @@
+{"products":[{
+      "id": 1,
+      "photoSource": "https://images.wallpaperscraft.com/image/alarm_clock_dial_watch_123806_1280x960.jpg",
+      "name": "Alarm",
+      "price": 10,
+      "inventory":20
+    },
+    {
+      "id": 2,
+      "photoSource": "https://www.kate.net/funstuff/wallpapers/katenet-pinkflowerwallpaper2011_1280x960.jpg",
+      "name": "Flower",
+      "price": 10,
+      "inventory":20
+    },
+    {
+      "id": 3,
+      "photoSource": "http://bicyclebuysell.com/images/upload/2018/12/1543983542-74.jpg",
+      "name": "Bicycle",
+      "price": 10,
+      "inventory":20
+    },
+    {
+      "id": 4,
+      "photoSource": "https://hdqwalls.com/download/lion-4k-1280x960.jpg",
+      "name": "Lamp",
+      "price": 10,
+      "inventory":20
+    },
+    {
+      "id": 5,
+      "photoSource": "https://hdqwalls.com/download/cole-the-lego-ninjago-movie-ne-1280x960.jpg",
+      "name": "Banana",
+      "price": 10,
+      "inventory":20
+    }]
+}	
